@@ -26,9 +26,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <?php if ($_GET['key'] != '' ){ ?>
+    <?php if (sizeof($_GET) > 0 ){ ?>
       <h1>HELP YOURSELF</h1>
-      <img src="http://188.226.129.169:8090/<?= $_GET['key']?>.mjpg"/>
+      <img src="http://188.226.129.169:8090/<?= array_keys($_GET)[0]?>.mjpg"/>
     <?php } else { ?>
       <h1>NOTHING TO SEE</h1>
     <?php } ?>
