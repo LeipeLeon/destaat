@@ -7,9 +7,8 @@
     # Setup server, log to an access file but keep it on sreen
     ffserver -f ffserver.conf | tee -a logs/access.log
     # On a remote server:
-    ulimit -Hn 200000 # Hard limit
-    ulimit -Sn 65536 # Soft limit
-    ulimit -n 200000 # Max. open file descriptors for shell session
+    ulimit -Hn 200000 # Hard limit open file descriptors for shell session
+    ulimit -Sn 65536 # Soft limit open file descriptors for shell session
     nohup ffserver -f ffserver.conf | tee -a logs/access.log &
     # Kill it
     killall ffserver
