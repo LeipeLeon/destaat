@@ -43,3 +43,8 @@ For modes:
 Generate a unique code:
 
     genUniqueCode.rb
+
+
+Run local (development) PHP server
+
+    php -S localhost:8000
