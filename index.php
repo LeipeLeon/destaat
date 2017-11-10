@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DE STAAT - IN THE ROUND</title>
+    <title>HELP YOURSELF</title>
     <style>
       html {
         background-color: black;
@@ -27,6 +27,7 @@
   </head>
   <body>
     <?php if ($_GET['key'] != '' ){ ?>
+      <h1>HELP YOURSELF</h1>
       <img src="http://188.226.129.169:8090/<?= $_GET['key']?>.mjpg"/>
     <?php } else { ?>
       <h1>NOTHING TO SEE</h1>
