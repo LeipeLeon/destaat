@@ -1,0 +1,11 @@
+{
+    "name": "leipeleon/destaat",
+    "description": "DE STAAT IN THE ROUND",
+    "authors": [
+        {
+            "name": "Leon Berenschot",
+            "email": "leipeleon@gmail.com"
+        }
+    ],
+    "require": {}
+}
