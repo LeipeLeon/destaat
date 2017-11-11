@@ -10,6 +10,7 @@
       }
       h1 {
         text-align: center;
+        font-size: 10vw;
       }
       img {
           position: absolute;
