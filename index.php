@@ -20,7 +20,7 @@
         text-align: center;
         font-size: 10vw;
       }
-      img {
+      img.stream {
           position: absolute;
           margin: auto;
           width: 288px;
@@ -36,7 +36,7 @@
   <body>
     <?php if (sizeof($_GET) > 0 ){ ?>
       <h1>HELP YOURSELF</h1>
-      <img src="http://188.226.129.169:8090/<?= array_keys($_GET)[0]?>.mjpg"/>
+      <img class="stream" src="http://188.226.129.169:8090/<?= array_keys($_GET)[0]?>.mjpg"/>
     <?php } else { ?>
       <h1>NOTHING TO SEE</h1>
     <?php } ?>
