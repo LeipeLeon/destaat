@@ -20,6 +20,11 @@
         text-align: center;
         font-size: 10vw;
       }
+      @media screen and (min-width: 600px) {
+        h1 {
+          font-size: 60px;
+        }
+      }
       img.stream {
           position: absolute;
           margin: auto;
