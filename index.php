@@ -15,6 +15,8 @@
       img {
           position: absolute;
           margin: auto;
+          width: 288px;
+          height: 352px;
           top: 0;
           left: 0;
           right: 0;
