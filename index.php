@@ -11,9 +11,6 @@
       h1 {
         text-align: center;
       }
-      body {
-        width: 100%;
-      }
       img {
           position: absolute;
           margin: auto;
