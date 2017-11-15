@@ -11,10 +11,6 @@
         height: 100%;
         margin: 0px;
         padding: 0px;
-        background-image: url(bg.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
       }
       h1 {
         text-align: center;
