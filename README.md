@@ -24,11 +24,11 @@ Kill it
 
 Get the input from iPhone
 
-    ffmpeg -i http://192.168.3.23/live -r 15 http://localhost:8090/destaat.ffm
+    ffmpeg -i http://192.168.99.43/live -r 15 http://188.226.129.169:8090/destaat.ffm
 
 This can be viewed on:
 
-    http://localhost:8090/destaat.mjpg
+    http://188.226.129.169:8090/MK8E.mjpg
 
 Grab incoming w/ a Intensity Shuttle
 

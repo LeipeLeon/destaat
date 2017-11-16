@@ -5,7 +5,7 @@ i=1
 while [ $i -le 300 ]
 do
   echo "Process \"$i\" started";
-  curl http://188.226.129.169:8090/destaat.mjpg -s > /dev/null 2>&1 & pid=$!
+  curl http://188.226.129.169:8090/MK8E.mjpg -s > /dev/null 2>&1 & pid=$!
   # sleep 1 & pid=$!
   PID_LIST+=" $pid";
   i=$(( $i + 1 ))
