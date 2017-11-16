@@ -1,17 +1,21 @@
 #!/usr/bin/env bash
 
-DAY=${1}
-MONTH=2017-10
-OUTPUTFILE=staat.${MONTH}-${DAY}
-
-cd out
-
 function err() {
   echo -e "\x1B[41;37;1m\n\n  ${1}\n\n\x1B[0m"
 }
 function msg() {
   echo -e "\x1B[42;30;1m\n\n  ${1}\n\x1B[0m"
 }
+
+DAY=${1}
+if [ -z "${DAY}" ] ; then
+  err "No day given!"
+  exit 1
+fi
+MONTH=2017-10
+OUTPUTFILE=staat.${MONTH}-${DAY}
+
+cd out
 
 FILE_COUNT=`ls -l ~/Downloads/message_export_${MONTH}* | wc -l`
 
