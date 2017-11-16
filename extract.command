@@ -4,6 +4,8 @@ DAY=${1}
 MONTH=2017-10
 OUTPUTFILE=staat.${MONTH}-${DAY}
 
+cd out
+
 function err() {
   echo -e "\x1B[41;37;1m\n\n  ${1}\n\n\x1B[0m"
 }
@@ -27,7 +29,7 @@ else
   exit 1
 fi
 
-if [ -f staat${DAY}* ] ; then
+if ls ${OUTPUTFILE}* 1> /dev/null 2>&1; then
   msg "`ls -l ${OUTPUTFILE}* | wc -l` File(s)"
 else
   err "No Output!"
