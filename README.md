@@ -28,7 +28,13 @@ Get the input from iPhone
 
 This can be viewed on:
 
-    http://188.226.129.169:8090/MK8E.mjpg
+    http://188.226.129.169:8090/AT6U.mjpg
+
+Text for in SMS message:
+
+HELP YOURSELF
+
+http://destaat.zenduit.nl/?AT6U
 
 Grab incoming w/ a Intensity Shuttle
 
