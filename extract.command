@@ -23,6 +23,10 @@ if (( ${FILE_COUNT} > 1 )); then
   err "Duplicate Files! (${MONTH})"
   exit 1
 fi
+if (( ${FILE_COUNT} < 1 )); then
+  err "No infile! (${MONTH})"
+  exit 1
+fi
 
 msg "Exporting ${DAY}"
 
