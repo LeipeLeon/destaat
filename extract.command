@@ -12,7 +12,7 @@ if [ -z "${DAY}" ] ; then
   err "No day given!"
   exit 1
 fi
-MONTH=2017-10
+MONTH=2017-11
 OUTPUTFILE=staat.${MONTH}-${DAY}
 
 cd out
