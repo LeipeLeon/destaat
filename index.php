@@ -35,7 +35,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <?php if (sizeof($_GET) > 0 && array_keys($_GET)[0] == 'SR2U'){ ?>
+    <?php if (sizeof($_GET) > 0 && array_keys($_GET)[0] == 'UN5E'){ ?>
       <h1>HELP YOURSELF</h1>
       <img class="stream" src="http://188.226.129.169:8090/<?= array_keys($_GET)[0]?>.mjpg"/>
     <?php } else { ?>
