@@ -1,0 +1,7 @@
+Keyword: 3x 45,-: €135,-
+Totaal SMS verbruik: € 635, ex btw
+Totaal ontvangen: 3709
+Unieke nummers: 3548
+
+Heroku: $4,-
+Digital Ocean: $14,-
